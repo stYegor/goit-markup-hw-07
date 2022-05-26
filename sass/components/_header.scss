@@ -1,0 +1,16 @@
+.header {
+  border-bottom: 1px solid #ececec;
+}
+
+.header__logo--black {
+  color: var(--main-text-color);
+}
+
+.header__logo {
+  margin-right: 93px;
+}
+
+.header__container {
+  display: flex;
+  align-items: center;
+}

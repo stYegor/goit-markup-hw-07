@@ -1,0 +1,32 @@
+.footer {
+  background-color: #2f303a;
+  padding-top: 60px;
+  padding-bottom: 60px;
+}
+
+.footer__container {
+  display: flex;
+  align-items: baseline;
+}
+
+.footer__links {
+  margin-right: 70px;
+}
+
+.footer__logo {
+  display: inline-block;
+  margin-bottom: 20px;
+}
+
+.footer__logo--white {
+  @include font(700, 26px, 1.19, 0.03em);
+  color: var(--primary-white-color);
+}
+
+.footer__address {
+  font-style: normal;
+}
+
+.footer__network {
+  margin-right: 93px;
+}

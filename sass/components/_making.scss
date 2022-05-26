@@ -1,0 +1,28 @@
+.making__list {
+  display: flex;
+}
+
+.making__item + .making__item {
+  margin-left: 30px;
+}
+
+.making__background {
+  height: 120px;
+  background-color: #f5f4fa;
+  margin-bottom: 30px;
+  @include align-list;
+}
+
+.making__caption {
+  margin-top: 0;
+  margin-bottom: 10px;
+  @include font(700, null, 1.14, 0.03em);
+  text-transform: uppercase;
+  color: inherit;
+}
+
+.making__clarification {
+  margin-top: 0;
+  @include font(400, null, 1.71, 0.03em);
+  color: var(--secondary-text-color);
+}
